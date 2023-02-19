@@ -7,6 +7,9 @@ The "Reqres User List" project is the final project for the Hillel IT school Pro
 > `npm install`
 ### Usage
 `npm run serve`
+For login use 
+Email: "eve.holt@reqres.in"
+Password: any.
 ### Technologies Used
 - React
 - Redux
