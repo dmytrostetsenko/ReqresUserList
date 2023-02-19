@@ -1,0 +1,23 @@
+.modal{
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $shadow;
+    opacity: 0;
+    transition: all ease .5s;
+    pointer-events: none;
+    &--active{
+        opacity: 1;
+        pointer-events: all;
+    }
+    &__content{
+        background-color: #fff;
+        border-radius: 15px;
+    }
+}

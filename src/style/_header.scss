@@ -1,0 +1,13 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 0;
+    &__navigation{
+        display: flex;
+        justify-content: end;
+        gap: 20px;
+    }
+}
+
